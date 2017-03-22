@@ -13,27 +13,32 @@
     <div class="page-header">
         </br>
         </br>
-        <h1 class="text-center">Wiki Search </br><small>search for articles or just click for something random</small></h1>
+        <h3 class="text-center">Simple Wiki Search Tool</br><small>....'cause, why not?</small></h3>
+        <div id="alert"></div>
+        <div id="warn"></div>
     </div>
     <div class="row">
-        <div class="col-md-1">
+        <div class="col-md-3">
         </div>
-        <div class="col-md-10">
-            <div type="button" class="btn btn-primary btn-lg" id="search">Search</div>
+        <div class="col-md-6">
             </br>
             </br>
             <div class="list-group" id="searchResults">
-                <div type="button" class="list-group-item">Hello</div>
-                </br>
-                <div type="button" class="list-group-item">There</div>
-                </br>
 
+            </div><!-- List Group -->
+            <p></p>
+            <div class="input-group">
+                <input type="text" placeholder="Search..." class="center" id="searchText">
+                <span class="input-group-btn">
+                    <div class="btn btn-default" type="button" id="search">Go!</div>
+                </span>
+                <div class="btn btn-default" type="button" id="more">More!!</div>
+                <div class="btn btn-default" type="button" id="random">Random</div>
             </div>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-3">
         </div>
     </div>
-    <div class="row"></div>
 </div> <!-- containter -->
 </body>
 <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
